@@ -7,16 +7,10 @@ class Data:
 [ ](https://telegra.ph/file/a4ae42abc5063ca28b59f.jpg)
 اهلا {}
 
-اهلا بك عزيزي {}
-
-
-اختصاص هذا البوت تحويل الصورة الى رابط
-
+هلا بيك  {}
+اختصاص هذا البوت تحويل الصورة و المتحركه الى رابط
 ورفعها على التليكراف
-
-
-الرجاء ارسال رابط الصورة 
-
+الرجاء ارسال الصورة او المتحركة 
 ليتم تحويلها الى تليكراف
     """
 
@@ -25,17 +19,15 @@ class Data:
     ABOUT = """
 
 برمجة المطور [بايروجرام](docs.pyrogram.org)
-
 لغة البوت [بايثون](www.python.org)
-
-Mustafa [المطور  ](https://t.me/R2RR7)
+Mustafa [المطور  ](https://t.me/S_Y_W)
 
 """
 
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("المطور", url="https://t.me/R2RR7")],
+        [InlineKeyboardButton("المطور", url="https://t.me/S_Y_W")],
         [InlineKeyboardButton("إغلاق 🔐", callback_data="close")],
         [InlineKeyboardButton(text=" العودة إلى الصفحة الرئيسية ", callback_data="home")],
     ]
@@ -43,7 +35,7 @@ Mustafa [المطور  ](https://t.me/R2RR7)
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("المطور", url="https://t.me/R2RR7")
+            InlineKeyboardButton("المطور", url="https://t.me/S_Y_W")
         ],
         [
             InlineKeyboardButton("المعلومات", callback_data="about")
@@ -53,7 +45,7 @@ Mustafa [المطور  ](https://t.me/R2RR7)
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("المطور ", url="https://t.me/QQQLO")],
+        [InlineKeyboardButton("المطور ", url="https://t.me/S_Y_W")],
         [InlineKeyboardButton("إغلاق ", callback_data="close")],
         [InlineKeyboardButton(text=" العودة إلى الصفحة الرئيسية ", callback_data="home")]
     ]
